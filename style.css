@@ -14,9 +14,64 @@
     flex-wrap: wrap;
 }
 
-.header i{
+.header i{  /* responsavel por ser o cabeçario */
 font-size: 100px;
 color: aqua;
 
 }
 
+.menu li a{ /* da ordens para listas*/
+text-decoration: none;
+color: white;
+padding: 10px;
+background-color: rgb(98, 0, 255);
+}
+
+.menu{ /* colocam as caixais na mesma linha*/
+display: flex;
+}
+
+.menu li{
+margin-left: 10px;
+} 
+
+h1{
+    text-align: center;
+    color: rgb(98, 0, 255);
+    margin-top: 80px;
+    
+}
+
+
+.flex{
+ display: flex;
+ flex-wrap: wrap;
+ max-width: 800px;
+ margin: 0 auto;
+ margin-bottom: 80px;
+ text-align: center;
+} 
+
+
+
+
+
+.flex img {
+    max-width: 100%;
+    display: block;
+}
+
+
+
+.flex div {
+    margin: 10px;
+    flex: 1 1 200px;
+}
+
+.camaro{
+    background-color: aqua;
+    color: black;
+}
+.rodape{
+    background-color: black;
+}
