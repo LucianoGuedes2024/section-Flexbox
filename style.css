@@ -71,7 +71,23 @@ h1{
 .camaro{
     background-color: aqua;
     color: black;
+    padding: 60px;
 }
 .rodape{
     background-color: black;
+    padding: 60px;
+    
+    
+    
+
+    
+    
+    
+}
+.menu2{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 60px;
+flex-wrap: wrap;
 }
